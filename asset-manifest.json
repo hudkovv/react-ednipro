@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-ednipro/static/css/main.b76c5c31.css",
-    "main.js": "/react-ednipro/static/js/main.7c0f5e15.js",
+    "main.js": "/react-ednipro/static/js/main.30e224de.js",
     "static/js/453.eb6b6f73.chunk.js": "/react-ednipro/static/js/453.eb6b6f73.chunk.js",
     "static/media/museum-1-2.jpg": "/react-ednipro/static/media/museum-1-2.45ebc1bccc15e3d15153.jpg",
     "index.html": "/react-ednipro/index.html",
     "static/media/arrow-right.svg": "/react-ednipro/static/media/arrow-right.f4b3afb471cdcb5dc761.svg",
     "static/media/arrow-left.svg": "/react-ednipro/static/media/arrow-left.17d0ddde1c7053223a19.svg",
     "main.b76c5c31.css.map": "/react-ednipro/static/css/main.b76c5c31.css.map",
-    "main.7c0f5e15.js.map": "/react-ednipro/static/js/main.7c0f5e15.js.map",
+    "main.30e224de.js.map": "/react-ednipro/static/js/main.30e224de.js.map",
     "453.eb6b6f73.chunk.js.map": "/react-ednipro/static/js/453.eb6b6f73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b76c5c31.css",
-    "static/js/main.7c0f5e15.js"
+    "static/js/main.30e224de.js"
   ]
 }
