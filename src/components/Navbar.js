@@ -5,7 +5,7 @@ function Navbar({ variant }) {
                 <div className="navbarContent">
                     <div className="navbarElements">
                         <div className="logo">
-                            <a href="#home"><img src="img/logo.png" alt="logo"></img></a>
+                            <a href="#home"><img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="logo"></img></a>
                         </div>
                         {variant === "footer" ? (
                             <div className="footerContent">
@@ -19,13 +19,13 @@ function Navbar({ variant }) {
                                 </ul>
                                 <div className="socials">
                                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                                        <img src="svg/facebook.svg" alt="Facebook" />
+                                        <img src={process.env.PUBLIC_URL + '/svg/facebook.svg'} alt="Facebook" />
                                     </a>
                                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                        <img src="svg/instagram.svg" alt="Instagram" />
+                                        <img src={process.env.PUBLIC_URL + '/svg/instagram.svg'} alt="Instagram" />
                                     </a>
                                     <a href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
-                                        <img src="svg/telegram.svg" alt="Telegram" />
+                                        <img src={process.env.PUBLIC_URL + '/svg/telegram.svg'} alt="Telegram" />
                                     </a>
                                 </div>
                             </div>

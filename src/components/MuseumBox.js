@@ -25,7 +25,7 @@ function MuseumBox() {
                                 {museum.images.map((img, idx) => (
                                     <SwiperSlide key={idx}>
                                         <img
-                                            src={`img/${img}`}
+                                            src={process.env.PUBLIC_URL + '/img/' + img}
                                             alt={`${museum.name} ${idx + 1}`}
                                         />
                                     </SwiperSlide>
